@@ -11,13 +11,15 @@
 
     <!-- A little help for the Netlify bots if you're not using a SSG -->
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
+      <div data-netlify-identity-menu></div>
+
+      <!-- Add a simpler button:
+        Simple button that will open the modal.
+      -->
+      <div data-netlify-identity-button>Login with Netlify Identity</div></form>
 
     <div id="root"></div>
-    <script type="text/babel">
+    <!-- <script type="text/babel">
 
       ReactDOM.render(
         <form name="contact" method="post">
@@ -99,7 +101,7 @@
       
         ReactDOM.render(<ContactForm />, document.getElementById("root"));
       
-      </script>
+      </script> -->
       
   </body>
 </html>
