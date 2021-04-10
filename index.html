@@ -61,7 +61,8 @@
               headers: { "Content-Type": "application/x-www-form-urlencoded" },
               body: encode({ "form-name": "contact", ...this.state })
             })
-              .then(() => alert("Success!"))
+              .then(() =>                window.location.assign("https://www.tutorialspoint.com")
+)
               .catch(error => alert(error));
       
             e.preventDefault();
