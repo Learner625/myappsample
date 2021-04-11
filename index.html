@@ -10,30 +10,17 @@
 
   </head>
   <body>
-    <!-- Add a menu:
-     Log in / Sign up - when the user is not logged in
-     Username / Log out - when the user is logged in
-    -->
-    <div data-netlify-identity-menu="">
-      <ul class="netlify-identity-menu">
-        <li class="netlify-identity-item netlify-identity-user-details">Logged in as <span class="netlify-identity-user">studylearning592@gmail.com</span>
-        </li>
-        <li class="netlify-identity-item"><a class="netlify-identity-logout" href="index.html">Log out</a>
-          <a class="netlify-identity-login" href="login.html">Log in</a></li>
-      </ul>
-    </div>
-  
-    <!-- Add a simpler button:
-      Simple button that will open the modal.
-    -->
-    <div data-netlify-identity-button="">Login with Netlify Identity<a class="netlify-identity-button" href="#">Login with Netlify Identity</a>
-    </div>
-  
-  <iframe id="netlify-identity-widget" title="Netlify identity widget" style="position: fixed; top: 0; left: 0; border: none; width: 100%; height: 100%; overflow: visible; background: transparent; display: none; z-index: 99; " src="about:blank">
-  </iframe>
 
+    <!-- A little help for the Netlify bots if you're not using a SSG -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <div data-netlify-identity-menu></div>
 
-    <!-- <div id="root"></div> -->
+      <!-- Add a simpler button:
+        Simple button that will open the modal.
+      -->
+      <div data-netlify-identity-button></div></form>
+
+    <div id="root"></div>
     <!-- <script type="text/babel">
 
       ReactDOM.render(
