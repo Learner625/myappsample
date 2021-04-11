@@ -5,4 +5,4 @@
         document.querySelector(".username").innerHTML=inputval;     
        }
 
-       
+       document.querySelector(".indexlogin").addEventListener('click',getInputValue());
