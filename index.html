@@ -8,18 +8,18 @@
     <!-- <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script> -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script type="text/javascript"  src="app.js"></script>
-
+<link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <!-- A little help for the Netlify bots if you're not using a SSG -->
-    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-      <a href="login.html" class="indexlogin" data-netlify-identity-menu></a>
+    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" action="/login.html">
+      <a style="list-style-type: none;" href="login.html" class="indexlogin" action="/login.html" data-netlify-identity-menu></a>
 
       <!-- Add a simpler button:
         Simple button that will open the modal.
       -->
-      <!-- <div data-netlify-identity-button></div> -->
+      <!-- <div action="/login.html" data-netlify-identity-button></div> -->
     </form>
 
     <!-- <div id="root"></div> -->

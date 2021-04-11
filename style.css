@@ -1,0 +1,58 @@
+.indexlogin ul{
+
+    list-style-type: none;
+
+}
+
+.indexlogin{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.indexlogin a{
+    text-decoration: none;
+}
+
+.netlify-identity-item .netlify-identity-user-details{
+    /* logged in as */
+  }
+
+.netlify-identity-user{
+    /* studylearning592@gmail.com */
+}
+
+.netlify-identity-signup{
+     /* signup */
+}
+.netlify-identity-login{
+    /* login or logout appears below sign up option */
+visibility: hidden;
+position: relative;
+width: auto;
+}
+.netlify-identity-login:after{
+visibility: visible;
+width: 300px;
+content: "sign in ";
+position: absolute;
+top: 0;
+left: 0;
+}
+.netlify-identity-logout{
+    /* login or logout appears below sign up option */
+  
+}
+/* button.btn {
+    content: "log";
+} */
+/* .btn:before {
+    /* content: "; */
+    /* visibility: hidden; */
+/* }  */
+
+/* .btn {
+    /* visibility: visible; */
+    /* content:"<a href='login.html' style='text-decoration : none' >Log out</a  >"; */
+/* }  */
