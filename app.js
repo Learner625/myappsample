@@ -1,8 +1,8 @@
 
 
-       document.getElementsByClassName('indexlogin')[0].addEventListener('click',function(){
+       document.querySelector('.netlify-identity-logout').addEventListener('click',function(){
         // Selecting the input element and get its value 
-        let inputVal = document.getElementsByClassName('netlify-identity-user')[0].value;
+        const inputVal = document.querySelector('.netlify-identity-user').value;
         // Displaying the value
-        document.getElementsByClassName('username')[0].innerHTML=inputVal;     
+        document.querySelector('.username').innerHTML=inputVal;     
        });
