@@ -47,9 +47,12 @@ left: 0;
 
 
 
-/* button.btn {
-    content: "log";
-} */
+.form{
+    /* visibility: hidden; */
+    content: "<a href='login.html' load='n2()' >";
+    background-color: aqua;
+} 
+
 /* .btn:before {
     /* content: "; */
     /* visibility: hidden; */
@@ -58,4 +61,4 @@ left: 0;
 /* .btn {
     /* visibility: visible; */
     /* content:"<a href='login.html' style='text-decoration : none' >Log out</a  >"; */
-/* }  */
+/* } 
