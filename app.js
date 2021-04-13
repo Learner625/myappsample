@@ -25,7 +25,7 @@ function n2(){
        // }
        // );
 }
-const uname = "document.querySelector('.formControl').value";
+// const uname = "document.querySelector('.formControl').value";
 
-const n =" document.querySelector('.netlify-identity-user').innerHTML=uname";
-document.querySelector('button.btn').onclick=n;
+// const n =" document.querySelector('.netlify-identity-user').innerHTML=uname";
+// document.querySelector('button.btn').onclick=n;
