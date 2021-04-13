@@ -1,4 +1,4 @@
-
+// document.querySelector('.netlify-identity-user-details').textContent='abc';
 function n2(){
        // document.querySelector('.netlify-identity-logout').addEventListener('click',function(){
         // Selecting the input element and get its value 
@@ -25,3 +25,7 @@ function n2(){
        // }
        // );
 }
+const uname = "document.querySelector('.formControl').value";
+
+const n =" document.querySelector('.netlify-identity-user').innerHTML=uname";
+document.querySelector('button.btn').onclick=n;

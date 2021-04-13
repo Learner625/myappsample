@@ -14,32 +14,49 @@
 .indexlogin a{
     text-decoration: none;
 }
-
-.netlify-identity-item .netlify-identity-user-details{
+.netlify-identity-menu{
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.netlify-identity-item.netlify-identity-user-details{
     /* logged in as */
+    /* visibility: visible; */
+    /* content:"click your username and it will take you to your login page"; */
+    visibility: hidden;
+    position: relative;
+    padding: 0 1em 0 0;
+    /* float: left; */
+    /* display: flex; */
   }
 
 .netlify-identity-user{
+    visibility: visible;
+    /* float: right; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
     /* studylearning592@gmail.com */
 }
 
 .netlify-identity-signup{
      /* signup */
+     padding: 0 1em 0 0;
+}
+.netlify-identity-item{
+    /* itself is a ul tag */
+    /* sign and login is inside it inside a li tag */
 }
 .netlify-identity-login{
     /* login or logout appears below sign up option */
-visibility: hidden;
-position: relative;
-width: auto;
+/* visibility: hidden; */
+/* float: left; */
+/* position: absolute; */
+/* left: 50%; */
+/* float: right; */
+/* width: auto; */
 }
-.netlify-identity-login:after{
-visibility: visible;
-width: 300px;
-content: "sign in ";
-position: absolute;
-top: 0;
-left: 0;
-}
+
 .netlify-identity-logout{
     /* login or logout appears below sign up option */
   
